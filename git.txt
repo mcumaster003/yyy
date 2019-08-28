@@ -1,0 +1,20 @@
+git config --global user.name 'xx'
+git config --global user.email 'xx'
+git config -l
+git init
+remote 远端 
+git remote add origin httpxxxx 服务器地址
+git status 
+git add *
+git commit -m 'fir'
+git push -u origin master
+
+/bin/etc/gitconfig   [http]  sslVerify = false  sslCAinfo = /bin/curl-ca-bundle.crt
+
+刷新 即可 
+
+slave 登录 
+直接搜索 用户名/项目 fork
+修改 
+pull request  new pull request
+create pull request 
